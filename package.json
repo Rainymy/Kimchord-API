@@ -1,0 +1,33 @@
+{
+  "name": "kimchord-api",
+  "author": "Rainymy",
+  "version": "1.0.0",
+  "description": "Backend of the Kimchord",
+  "main": "index.js",
+  "scripts": {
+    "live": "node .",
+    "server": "node ./server/index.js"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cookie-parser": "^1.4.7",
+    "cookiefile": "^1.0.10",
+    "express": "^4.21.2",
+    "ffmpeg-static": "^5.2.0",
+    "get-video-duration": "^4.1.0",
+    "got": "^14.4.6",
+    "helmet": "^8.1.0",
+    "kimchord-fastforward": "^1.7.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "yt-dlp-wrap": "^2.3.11",
+    "ytpl": "^2.3.0",
+    "ytsr": "^3.8.4"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.30"
+  }
+}
