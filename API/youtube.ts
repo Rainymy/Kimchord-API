@@ -1,9 +1,9 @@
 "use strict";
-const https = require('node:https');
+import https from 'node:https';
 
-const ytsr = require('ytsr');
-const ytpl = require('ytpl');
-const { getVideoDurationInSeconds } = require("get-video-duration");
+import ytsr from 'ytsr';
+import ytpl from 'ytpl';
+import { getVideoDurationInSeconds } from "get-video-duration";
 
 const cache = new Map();
 const CACHE_TIME = 60 * 5;
